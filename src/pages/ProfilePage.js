@@ -99,10 +99,6 @@ export default function ProfilePage() {
               <span className="meta-label">Phone</span>
               <span>{user?.phone_number}</span>
             </div>
-            <div className="meta-item">
-              <span className="meta-label">Role</span>
-              <span className="role-badge">{user?.role?.name || `Role #${user?.role_id}`}</span>
-            </div>
           </div>
         </div>
 

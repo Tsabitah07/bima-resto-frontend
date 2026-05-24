@@ -19,7 +19,6 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="navbar-brand">
         <Link to="/dashboard">
-          <span className="brand-icon">🍽</span>
           <span className="brand-name">BimaResto</span>
         </Link>
       </div>
